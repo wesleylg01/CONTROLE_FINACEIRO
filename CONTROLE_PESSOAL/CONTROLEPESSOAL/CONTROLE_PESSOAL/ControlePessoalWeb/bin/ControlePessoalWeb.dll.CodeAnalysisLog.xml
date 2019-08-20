@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\bin\ControlePessoalWeb.dll">
+   <Modules>
+    <Module Name="controlepessoalweb.dll">
+     <Namespaces>
+      <Namespace Name="ControlePessoalWeb.Models">
+       <Types>
+        <Type Name="AspNetRoles" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2019-08-20 00:45:45Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="AspNetRoles.cs" Line="8">'AspNetRoles.AspNetRoles()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;AspNetRoles..ctor()&#xD;&#xA;AspNetRoles.set_AspNetUserRoles(ICollection&lt;AspNetUserRoles&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AspNetUsers" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2019-08-20 00:45:45Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="AspNetUsers.cs" Line="8">'AspNetUsers.AspNetUsers()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;AspNetUsers..ctor()&#xD;&#xA;AspNetUsers.set_AspNetUserClaims(ICollection&lt;AspNetUserClaims&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="AspNetUsers.cs" Line="8">'AspNetUsers.AspNetUsers()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;AspNetUsers..ctor()&#xD;&#xA;AspNetUsers.set_AspNetUserLogins(ICollection&lt;AspNetUserLogins&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="AspNetUsers.cs" Line="8">'AspNetUsers.AspNetUsers()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;AspNetUsers..ctor()&#xD;&#xA;AspNetUsers.set_AspNetUserRoles(ICollection&lt;AspNetUserRoles&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Autor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2019-08-20 00:45:45Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="Autor.cs" Line="8">'Autor.Autor()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;Autor..ctor()&#xD;&#xA;Autor.set_Livro(ICollection&lt;Livro&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Genero" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2019-08-20 00:45:45Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="Genero.cs" Line="8">'Genero.Genero()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;Genero..ctor()&#xD;&#xA;Genero.set_Livro(ICollection&lt;Livro&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Livro" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2019-08-20 00:45:45Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="Livro.cs" Line="8">'Livro.Livro()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;Livro..ctor()&#xD;&#xA;Livro.set_Leitura(ICollection&lt;Leitura&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Pessoa" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2019-08-20 00:45:45Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="Pessoa.cs" Line="8">'Pessoa.Pessoa()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;Pessoa..ctor()&#xD;&#xA;Pessoa.set_ContaPagar(ICollection&lt;ContaPagar&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="Pessoa.cs" Line="8">'Pessoa.Pessoa()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;Pessoa..ctor()&#xD;&#xA;Pessoa.set_ContaReceber(ICollection&lt;ContaReceber&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="Pessoa.cs" Line="8">'Pessoa.Pessoa()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;Pessoa..ctor()&#xD;&#xA;Pessoa.set_Meta(ICollection&lt;Meta&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\Models" File="Pessoa.cs" Line="8">'Pessoa.Pessoa()' contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: &#xD;&#xA;&#xD;&#xA;Pessoa..ctor()&#xD;&#xA;Pessoa.set_Usuario(ICollection&lt;Usuario&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>Não chamar métodos substituíveis em construtores</Name>
+   <Description>Métodos virtuais definidos na classe não devem ser chamados a partir de construtores. Se uma classe derivada substituiu o método, a versão da classe derivada será chamada (antes do construtor da classe derivada ser chamado).</Description>
+   <Resolution Name="Default">{0} contém uma cadeia de chamadas que resulta em uma chamada para um método virtual definido pela classe. Revise a seguinte pilha de chamadas em busca de consequências não intencionais: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Recolher Tudo</String>
+  <String Key="CheckId">Verificar ID</String>
+  <String Key="Error">Erro</String>
+  <String Key="Errors">erro(s)</String>
+  <String Key="ExpandAll">Expandir Tudo</String>
+  <String Key="Help">Ajuda</String>
+  <String Key="Line">Linha</String>
+  <String Key="Messages">mensagem(ns)</String>
+  <String Key="LocationNotStoredInPdb">[Local não armazenado em Pdb]</String>
+  <String Key="Project">Projeto</String>
+  <String Key="Resolution">Resolução</String>
+  <String Key="Rule">Regra</String>
+  <String Key="RuleFile">Arquivo de Regra</String>
+  <String Key="RuleDescription">Descrição da Regra</String>
+  <String Key="Source">Origem</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Destino</String>
+  <String Key="Warning">Aviso</String>
+  <String Key="Warnings">aviso(s)</String>
+  <String Key="ReportTitle">Relatório de Análise de Código</String>
+ </Localized>
+</FxCopReport>
