@@ -65,6 +65,14 @@ namespace ControlePessoalWeb.Models
     public class RegisterViewModel
     {
         [Required]
+        [Display(Name = "Nome")]
+        public string Nome { get; set; }
+
+        [Required]
+        [Display(Name = "SobreNome")]
+        public string SobreNome { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }

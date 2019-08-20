@@ -274,5 +274,4 @@ C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\Co
 C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\bin\System.Numerics.Vectors.xml
 C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\obj\Debug\ControlePessoalWeb.dll.config
-C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\bin\ControlePessoalWeb.dll.CodeAnalysisLog.xml
-C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\bin\ControlePessoalWeb.dll.lastcodeanalysissucceeded
+C:\Projetos\ControlePessoal\CONTROLE_PESSOAL\CONTROLEPESSOAL\CONTROLE_PESSOAL\ControlePessoalWeb\obj\Debug\ControlePessoalWeb.csprojAssemblyReference.cache
