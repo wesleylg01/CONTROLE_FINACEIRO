@@ -71,7 +71,7 @@ namespace ControlePessoalWeb.Models
 
         [Required(ErrorMessage = "O campo Nome Data de Nascimento é obrigatório")]
         [Display(Name = "Data de Nascimento")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
+        //[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
         public DateTime DataNasc { get; set; }
 
         [Required]

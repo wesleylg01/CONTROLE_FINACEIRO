@@ -355,9 +355,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20190820160718_InitialCreate.cs" />
-    <Compile Include="Migrations\20190820160718_InitialCreate.designer.cs">
-      <DependentUpon>20190820160718_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\20190821232917_InitialCreate.cs" />
+    <Compile Include="Migrations\20190821232917_InitialCreate.designer.cs">
+      <DependentUpon>20190821232917_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190821233429_MigrationName.cs" />
+    <Compile Include="Migrations\20190821233429_MigrationName.designer.cs">
+      <DependentUpon>20190821233429_MigrationName.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\CONTROLE_PESSOALContextModelSnapshot.cs" />
