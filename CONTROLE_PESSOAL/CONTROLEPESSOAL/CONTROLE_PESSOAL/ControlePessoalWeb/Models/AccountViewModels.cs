@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace ControlePessoalWeb.Models
@@ -68,9 +69,10 @@ namespace ControlePessoalWeb.Models
         [Display(Name = "Nome")]
         public string Nome { get; set; }
 
-        [Required]
-        [Display(Name = "SobreNome")]
-        public string SobreNome { get; set; }
+        [Required(ErrorMessage = "O campo Nome Data de Nascimento é obrigatório")]
+        [Display(Name = "Data de Nascimento")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
+        public DateTime DataNasc { get; set; }
 
         [Required]
         [EmailAddress]
