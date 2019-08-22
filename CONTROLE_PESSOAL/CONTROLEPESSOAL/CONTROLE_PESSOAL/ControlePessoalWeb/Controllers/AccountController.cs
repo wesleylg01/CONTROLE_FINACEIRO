@@ -154,10 +154,18 @@ namespace ControlePessoalWeb.Controllers
                 var user = new ApplicationUser()
                 {
                     UserName = model.Email,
-                    Nome = model.Nome,
-                    DataNasc = model.DataNasc,
+                    Nome        = model.Nome,
+                    Email       = model.Email,
+                    DataNasc    = model.DataNasc,
                     EstadoCivil = model.EstadoCivil,
-                    Email = model.Email
+                    Telefone    = model.Telefone,
+                    Celular     = model.Celular,
+                    Endereco    = model.Endereco,
+                    Numero      = model.Numero,
+                    Cidade      = model.Cidade,
+                    Uf          = model.Uf,
+                    Complmento  = model.Complemento,
+                    Cep         = model.Cep       
                 };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)

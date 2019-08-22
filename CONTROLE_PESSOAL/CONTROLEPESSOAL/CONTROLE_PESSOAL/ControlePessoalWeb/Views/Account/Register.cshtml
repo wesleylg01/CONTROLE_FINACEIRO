@@ -10,17 +10,17 @@
     @Html.AntiForgeryToken()
     <h4>Crie uma nova conta.</h4>
     <hr />
+    <div class="form-group">
+        @Html.LabelFor(m => m.Nome, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Nome, new { @class = "form-control" })
+        </div>
+    </div>
     @Html.ValidationSummary("", new { @class = "text-danger" })
     <div class="form-group">
         @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
             @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
-        </div>
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.Nome, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.TextBoxFor(m => m.Nome, new { @class = "form-control" })
         </div>
     </div>
     <div class="form-group">
@@ -34,13 +34,60 @@
         <div class="col-md-10">
             @Html.DropDownList("EstadoCivil", new List<SelectListItem>
             {
-                new SelectListItem{ Text="",           Value = "0" },
                 new SelectListItem{ Text="Solteiro",   Value = "1" },
                 new SelectListItem{ Text="Casado",     Value = "2" },
                 new SelectListItem{ Text="Separado",   Value = "3" },
                 new SelectListItem{ Text="Divorciado", Value = "4" },
                 new SelectListItem{ Text="Viúvo",      Value = "5" },
              }, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Telefone, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Telefone, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Celular, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Celular, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Endereco, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Endereco, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Numero, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Numero, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cidade, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Cidade, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Uf, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Uf, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Complemento, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Complemento, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cep, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Cep, new { @class = "form-control" })
         </div>
     </div>
     <div class="form-group">
