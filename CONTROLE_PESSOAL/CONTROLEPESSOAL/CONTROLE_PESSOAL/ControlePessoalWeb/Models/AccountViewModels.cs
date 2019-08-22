@@ -69,10 +69,14 @@ namespace ControlePessoalWeb.Models
         [Display(Name = "Nome")]
         public string Nome { get; set; }
 
-        [Required(ErrorMessage = "O campo Nome Data de Nascimento é obrigatório")]
+        [Required(ErrorMessage = "O campo Data de Nascimento é obrigatório")]
         [Display(Name = "Data de Nascimento")]
-        //[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
         public DateTime DataNasc { get; set; }
+
+        [Required(ErrorMessage = "O campo Estado Civil é obrigatório")]
+        [Display(Name = "Estado Civil")]
+        public string EstadoCivil { get; set; }
 
         [Required]
         [EmailAddress]

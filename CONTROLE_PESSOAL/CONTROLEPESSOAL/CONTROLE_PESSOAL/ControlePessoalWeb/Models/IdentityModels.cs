@@ -12,6 +12,7 @@ namespace ControlePessoalWeb.Models
     {
         public string Nome { get; set; }
         public DateTime DataNasc { get; set; }
+        public string EstadoCivil { get; set; }
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Observe que o authenticationType deve corresponder àquele definido em CookieAuthenticationOptions.AuthenticationType

@@ -30,6 +30,20 @@
         </div>
     </div>
     <div class="form-group">
+        @Html.LabelFor(m => m.EstadoCivil, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownList("EstadoCivil", new List<SelectListItem>
+            {
+                new SelectListItem{ Text="",           Value = "0" },
+                new SelectListItem{ Text="Solteiro",   Value = "1" },
+                new SelectListItem{ Text="Casado",     Value = "2" },
+                new SelectListItem{ Text="Separado",   Value = "3" },
+                new SelectListItem{ Text="Divorciado", Value = "4" },
+                new SelectListItem{ Text="Viúvo",      Value = "5" },
+             }, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
         @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
             @Html.PasswordFor(m => m.Password, new { @class = "form-control" })

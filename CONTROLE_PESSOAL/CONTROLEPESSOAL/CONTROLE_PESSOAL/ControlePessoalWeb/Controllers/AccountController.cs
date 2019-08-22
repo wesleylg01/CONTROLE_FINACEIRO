@@ -156,6 +156,7 @@ namespace ControlePessoalWeb.Controllers
                     UserName = model.Email,
                     Nome = model.Nome,
                     DataNasc = model.DataNasc,
+                    EstadoCivil = model.EstadoCivil,
                     Email = model.Email
                 };
                 var result = await UserManager.CreateAsync(user, model.Password);
