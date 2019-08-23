@@ -153,7 +153,7 @@ namespace ControlePessoalWeb.Controllers
             {
                 var user = new ApplicationUser()
                 {
-                    UserName = model.Email,
+                    UserName    = model.Email,
                     Nome        = model.Nome,
                     Email       = model.Email,
                     DataNasc    = model.DataNasc,

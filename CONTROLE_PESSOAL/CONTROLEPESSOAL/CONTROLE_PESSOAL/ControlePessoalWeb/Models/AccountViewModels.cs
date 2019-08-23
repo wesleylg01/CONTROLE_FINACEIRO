@@ -82,39 +82,31 @@ namespace ControlePessoalWeb.Models
         [Required(ErrorMessage = "O campo Estado Civil é obrigatório")]
         [Display(Name = "Estado Civil")]
         public int EstadoCivil { get; set; }
-
-        [Required(ErrorMessage = "O campo Telefone é obrigatório")]
+        
         [Display(Name = "Telefone")]
         public string Telefone { get; set; }
-
-        [Required(ErrorMessage = "O campo Celular é obrigatório")]
+        
         [Display(Name = "Celular")]
         public string Celular { get; set; }
 
-        [Required(ErrorMessage = "O campo Endereco é obrigatório")]
-        [Display(Name = "Endereco")]
-        public string Endereco { get; set; }
-
-        [Required(ErrorMessage = "O campo Numero é obrigatório")]
-        [Display(Name = "Numero")]
-        public string Numero { get; set; }
-
-        [Required(ErrorMessage = "O campo Cidade é obrigatório")]
-        [Display(Name = "Cidade")]
-        public string Cidade { get; set; }
-
-        [Required(ErrorMessage = "O campo UF é obrigatório")]
-        [Display(Name = "UF")]
-        public string Uf { get; set; }
-
-        [Required(ErrorMessage = "O campo Complemento é obrigatório")]
-        [Display(Name = "Complemento")]
-        public string Complemento { get; set; }
-
-        [Required(ErrorMessage = "O campo CEP é obrigatório")]
         [Display(Name = "CEP")]
         public string Cep { get; set; }
 
+        [Display(Name = "Endereco")]
+        public string Endereco { get; set; }
+        
+        [Display(Name = "Numero")]
+        public string Numero { get; set; }
+        
+        [Display(Name = "Cidade")]
+        public string Cidade { get; set; }
+        
+        [Display(Name = "Estado")]
+        public string Uf { get; set; }
+        
+        [Display(Name = "Complemento")]
+        public string Complemento { get; set; }
+        
         [Required]
         [StringLength(100, ErrorMessage = "O/A {0} deve ter no mínimo {2} caracteres.", MinimumLength = 6)]
         [DataType(DataType.Password)]

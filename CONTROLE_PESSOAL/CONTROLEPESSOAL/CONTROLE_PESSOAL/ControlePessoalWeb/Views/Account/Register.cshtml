@@ -55,6 +55,12 @@
         </div>
     </div>
     <div class="form-group">
+        @Html.LabelFor(m => m.Cep, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Cep, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
         @Html.LabelFor(m => m.Endereco, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
             @Html.TextBoxFor(m => m.Endereco, new { @class = "form-control" })
@@ -75,19 +81,42 @@
     <div class="form-group">
         @Html.LabelFor(m => m.Uf, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
-            @Html.TextBoxFor(m => m.Uf, new { @class = "form-control" })
+            @Html.DropDownList("Uf", new List<SelectListItem>
+            {
+                new SelectListItem{ Text=""  ,                       Value = "" },
+                new SelectListItem{ Text="Acre (AC)",                Value = "AC" },
+                new SelectListItem{ Text="Alagoas (AL)",             Value = "AL" },
+                new SelectListItem{ Text="Amapá (AP)",               Value = "AP" },
+                new SelectListItem{ Text="Amazonas (AM)",            Value = "AM" },
+                new SelectListItem{ Text="Bahia (BA)",               Value = "BA" },
+                new SelectListItem{ Text="Ceará (CE)",               Value = "CE" },
+                new SelectListItem{ Text="Distrito Federal (DF)",    Value = "DF" },
+                new SelectListItem{ Text="Goiás (GO)",               Value = "GO" },
+                new SelectListItem{ Text="Maranhão (MA)",            Value = "MA" },
+                new SelectListItem{ Text="Mato Grosso (MT)",         Value = "MT" },
+                new SelectListItem{ Text="Mato Grosso do Sul (MS)",  Value = "MS" },
+                new SelectListItem{ Text="Minas Gerais (MG)",        Value = "MG" },
+                new SelectListItem{ Text="Pará (PA)",                Value = "PA" },
+                new SelectListItem{ Text="Paraíba (PB)",             Value = "PB" },
+                new SelectListItem{ Text="Paraná (PR)",              Value = "PR" },
+                new SelectListItem{ Text="Pernambuco (PE)",          Value = "PE" },
+                new SelectListItem{ Text="Piauí (PI)",               Value = "PI" },
+                new SelectListItem{ Text="Rio de Janeiro (RJ)",      Value = "RJ" },
+                new SelectListItem{ Text="Rio Grande do Norte (RN)", Value = "RN" },
+                new SelectListItem{ Text="Rio Grande do Sul (RS)",   Value = "RS" },
+                new SelectListItem{ Text="Rondônia (RO)",            Value = "RO" },
+                new SelectListItem{ Text="Roraima (RR)",             Value = "RR" },
+                new SelectListItem{ Text="Santa Catarina (SC)",      Value = "SC" },
+                new SelectListItem{ Text="São Paulo (SP)",           Value = "SP" },
+                new SelectListItem{ Text="Sergipe (SE)",             Value = "SE" },
+                new SelectListItem{ Text="Tocantins (TO)",           Value = "TO" },
+             }, new { @class = "form-control" })
         </div>
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Complemento, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
             @Html.TextBoxFor(m => m.Complemento, new { @class = "form-control" })
-        </div>
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.Cep, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.TextBoxFor(m => m.Cep, new { @class = "form-control" })
         </div>
     </div>
     <div class="form-group">
