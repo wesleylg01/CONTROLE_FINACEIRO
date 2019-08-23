@@ -161,6 +161,7 @@ namespace ControlePessoalWeb.Controllers
                     Telefone    = model.Telefone,
                     Celular     = model.Celular,
                     Endereco    = model.Endereco,
+                    Bairro      = model.Bairro,
                     Numero      = model.Numero,
                     Cidade      = model.Cidade,
                     Uf          = model.Uf,

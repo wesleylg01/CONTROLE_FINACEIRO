@@ -92,9 +92,12 @@ namespace ControlePessoalWeb.Models
         [Display(Name = "CEP")]
         public string Cep { get; set; }
 
-        [Display(Name = "Endereco")]
+        [Display(Name = "Rua")]
         public string Endereco { get; set; }
-        
+
+        [Display(Name = "Bairro")]
+        public string Bairro { get; set; }
+
         [Display(Name = "Numero")]
         public string Numero { get; set; }
         
